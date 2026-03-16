@@ -1,0 +1,36 @@
+# LaTeX
+Instructions.md
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.tex
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & OS
+.DS_Store
+Thumbs.db
+# data/bank_churn.csv
+# data/financial_news.csv
+
+# Keep PDFs and Data Synopsis
+!*.pdf
+!README.md
+!code/*.py
+!tutos/*.pdf
+!cours/*.pdf
+!data/*.csv
+!data/*.png
+env/ 
+data/raw/ 
+__pycache__/ 
+*.pyc 
